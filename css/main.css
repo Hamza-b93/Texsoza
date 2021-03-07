@@ -1,6 +1,6 @@
 
 /* =================================== */
-/*	Basic Style 
+/*	Basic Style
 /* =================================== */
 
 body {
@@ -23,7 +23,7 @@ figure, p {
 
 a {
     color: #fff;
-	
+
     -webkit-transition: all .3s ease-in 0s;
        -moz-transition: all .3s ease-in 0s;
         -ms-transition: all .3s ease-in 0s;
@@ -55,11 +55,11 @@ h4, h5, h6 {
     content: " ";
     display: table;
 }
- 
+
 .clear:after {
    clear: both;
 }
- 
+
 .clear {
    *zoom: 1;
 }
@@ -144,7 +144,7 @@ body > section,
   background-color: rgba(16, 22, 54, 0.2);
   border: 0 none;
   margin: 0;
-  
+
     -webkit-transition: background-color 800ms linear;
        -moz-transition: background-color 800ms linear;
 	    -ms-transition: background-color 800ms linear;
@@ -329,6 +329,10 @@ top: -8px;
 	Our Works
 ==========================================*/
 
+#works {
+  margin: auto;
+}
+
 .work-filter {
   margin-bottom: 35px;
 }
@@ -357,6 +361,8 @@ top: -8px;
 
 .mix {
     display: none;
+    margin: auto;
+    margin-bottom: 15px;
 }
 
 .work-item {
@@ -380,15 +386,15 @@ top: -8px;
 	width: 100%;
 	height: 100%;
 	color: #fff;
-	
+
 	opacity: 0;
 	filter: alpha(opacity=0);
-	
-	-webkit-transition: all 450ms ease-out 0s;	
+
+	-webkit-transition: all 450ms ease-out 0s;
 	   -moz-transition: all 450ms ease-out 0s;
 		 -o-transition: all 450ms ease-out 0s;
 		    transition: all 450ms ease-out 0s;
-		  
+
 	-webkit-transform: rotateY(180deg) scale(0.5,0.5);
 	   -moz-transform: rotateY(180deg) scale(0.5,0.5);
 		-ms-transform: rotateY(180deg) scale(0.5,0.5);
@@ -399,7 +405,7 @@ top: -8px;
 .work-item:hover .overlay {
 	opacity: 1;
 	filter: alpha(opacity=100);
-	
+
 	-webkit-transform: rotateY(0deg) scale(1,1);
 	   -moz-transform: rotateY(0deg) scale(1,1);
 		-ms-transform: rotateY(0deg) scale(1,1);
@@ -431,8 +437,24 @@ top: -8px;
   line-height: 24px;
 }
 
+.team {
+  margin: auto;
+  text-align: center;
+}
 
+.teamContainer {
+  margin: auto;
+  text-align: center;
+}
 
+.team-member {
+  margin: auto;
+  text-align: center;
+}
+
+#teamRow {
+  margin: auto;
+}
 /*=========================================
 	Our Team Member
 ==========================================*/
@@ -440,6 +462,7 @@ top: -8px;
 .member-thumb {
   width: 273px;
   position: relative;
+  margin-left: 125px;
 }
 
 .member-thumb .overlay h5 {
@@ -467,7 +490,7 @@ top: -8px;
 	cursor: pointer;
 	opacity: 1;
 	filter: alpha(opacity=100);
-	
+
 	-webkit-transform: rotateY(0deg) scale(1,1);
 	   -moz-transform: rotateY(0deg) scale(1,1);
 		-ms-transform: rotateY(0deg) scale(1,1);
