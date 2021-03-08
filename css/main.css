@@ -1,6 +1,45 @@
 /* =================================== */
 
+@media only screen and (min-width: 1400px) {
 
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .teamText {     
+      margin-left: 51155px;
+      margin: auto;
+      text-align: center;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .teamText {
+      margin-left: 51155px;
+      margin: auto;
+      text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .teamText {
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .teamText {
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .teamText {
+        margin: auto;
+        text-align: center;
+    }
+}
 /*	Basic Style
 /* =================================== */
 
@@ -320,12 +359,21 @@ body>section,
     top: 5px;
 }
 
-.service-desc h3 {
+.service-desc h2 {
     color: #062033;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 25px;
 }
+
+.centerAlign {
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#pictureText {}
 
 
 /*=========================================
@@ -453,6 +501,47 @@ body>section,
 
 #teamRow {
     margin: auto;
+}
+
+@media only screen and (min-width: 1400px) {
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .teamText {     
+      margin-left: 51155px;
+      margin: auto;
+      text-align: center;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .teamText {
+      margin-left: 51155px;
+      margin: auto;
+      text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .teamText {
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .teamText {
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .teamText {
+        margin: auto;
+        text-align: center;
+    }
 }
 
 
