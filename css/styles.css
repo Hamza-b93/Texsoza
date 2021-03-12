@@ -10144,6 +10144,18 @@ header.web-masthead h1 {
 header.mob-masthead h1 {
   font-size: 2.25rem;
 }
+header.graphic-masthead h1 {
+  font-size: 2.25rem;
+}
+header.uiux-masthead h1 {
+  font-size: 2.25rem;
+}
+header.erp-masthead h1 {
+  font-size: 2.25rem;
+}
+header.software-masthead h1 {
+  font-size: 2.25rem;
+}
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
@@ -10163,6 +10175,30 @@ header.mob-masthead h1 {
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
+  header.graphic-masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.uiux-masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.erp-masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.software-masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
   header.masthead p {
     font-size: 1.15rem;
   }
@@ -10170,6 +10206,18 @@ header.mob-masthead h1 {
     font-size: 1.15rem;
   }
   header.mob-masthead p {
+    font-size: 1.15rem;
+  }
+  header.graphic-masthead p {
+    font-size: 1.15rem;
+  }
+  header.erp-masthead p {
+    font-size: 1.15rem;
+  }
+  header.software-masthead p {
+    font-size: 1.15rem;
+  }
+  header.uiux-masthead p {
     font-size: 1.15rem;
   }
   header.masthead h1 {
@@ -10181,9 +10229,39 @@ header.mob-masthead h1 {
   header.mob-masthead h1 {
     font-size: 3rem;
   }
+  header.graphic-masthead h1 {
+    font-size: 3rem;
+  }
+  header.uiux-masthead h1 {
+    font-size: 3rem;
+  }
+  header.erp-masthead h1 {
+    font-size: 3rem;
+  }
+  header.software-masthead h1 {
+    font-size: 3rem;
+  }
 }
 @media (min-width: 1200px) {
   header.masthead h1 {
+    font-size: 3.5rem;
+  }
+  header.web-masthead h1 {
+    font-size: 3.5rem;
+  }
+  header.mob-masthead h1 {
+    font-size: 3.5rem;
+  }
+  header.graphic-masthead h1 {
+    font-size: 3.5rem;
+  }
+  header.uiux-masthead h1 {
+    font-size: 3.5rem;
+  }
+  header.erp-masthead h1 {
+    font-size: 3.5rem;
+  }
+  header.software-masthead h1 {
     font-size: 3.5rem;
   }
 }
